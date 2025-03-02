@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfölyo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Ayberk Okuyucu</h1>
+        <h3> Front End Developer.</h3>
+        <nav>
+            <ul class="container">
+                <li class="box"><a class="btn btn-secondary" href="#about">Hakkımda</a></li>
+                <li class="box"><a class="btn btn-secondary" href="#projeid">Projeler</a></li>
+                <li class="box"><a class="btn btn-secondary" href="#adrestable">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="about" class="about-section">
+            <div class="about-container">
+                <figure>
+                    <img src="img/images.jpg" alt="Ayberk Okuyucu" class="profile-img">
+                    <figcaption>Ayberk Okuyucu - Front End Developer</figcaption>
+                </figure>
+
+                <div class="about-text">
+                    <h2>Merhaba, Ben Ayberk!</h2>
+                    <p>Front End Developer olarak yaratıcı çözümler üretiyorum. Web teknolojilerine olan tutkumla modern
+                        ve etkileyici projelere imza atıyorum.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="projeid">
+                <h1>
+                    Projelerim
+                </h1>
+                <button id="buton" class="btn btn-secondary">Aç/Kapa</button>
+            </div>
+        </section>
+        <section id="projects">
+
+            <div class="projects-container">
+                <h2 class="project-title">Projelerim</h2>
+                <div class="projects-wrapper">
+                    <article class="project-card">
+                        <h3>Halı Saha Projesi</h3>
+                        <p>Dinamik bir halı saha rezervasyon sistemi. Kullanıcı dostu arayüzü ile hızlı rezervasyon
+                            imkanı sunuyor.</p>
+                        <time datetime="2024-12-14">14 Aralık 2024</time>
+                    </article>
+                    <article class="project-card">
+                        <h3>Film İzleme Sitesi</h3>
+                        <p>Film izleme keyfini artıran, interaktif ve modern bir arayüz ile geliştirilmiş film
+                            platformu.</p>
+                        <time datetime="2025-02-14">14 Şubat 2025</time>
+                    </article>
+                    <article class="project-card">
+                        <h3>Kişisel Blog</h3>
+                        <p>Web geliştirme ve programlama üzerine yazılar yazdığım kişisel blog sitem.</p>
+                        <time datetime="2025-05-10">10 Mayıs 2025</time>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <address id="adrestable">
+                <div class="row">
+                    <h2 class="section-title">Benimle nasıl iletişime geçebilirsiniz?</h2>
+                </div>
+
+                <div id="iletişim" class="row">
+                    <div class="icon-box col-3">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h3>E-Posta</h3>
+                        <p>Aşağıdaki linke tıklayarak mail atabilirsin!</p>
+                        <a id="clear-box" href="#">E-Mail</a>
+                    </div>
+                    <div id="iletişim" class="icon-box col-3">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <h3>WhatsApp</h3>
+                        <p>Aşağıdaki numaraya mesaj atabilirsin!</p>
+                        <p id="clear-box"><b> 05121231212</b></p>
+                    </div>
+                    <div id="iletişim" class="icon-box col-3">
+                        <i class="fa-brands fa-instagram "></i>
+                        <h3>Sosyal Medya</h3>
+                        <p>Aşağıdaki hesaba mesaj atabilirsin!</p>
+                        <a id="clear-box" href="#"><b>Instagram</b></a>
+                    </div>
+                </div>
+            </address>
+        </section>
+    </main>
+    <aside>
+        <h2>Yan Projeler</h2>
+        <ul>
+            <li><a href="#">Proje 1 - Kişisel Blog</a></li>
+            <li><a href="#">Proje 2 - Hava Durumu Uygulaması</a></li>
+            <li><a href="#">Proje 3 - Todo List</a></li>
+        </ul>
+    </aside>
+    <footer>
+        <h1>Tüm Telif hakları saklıdır.</h1>
+    </footer>
+</body>
+
+</html>

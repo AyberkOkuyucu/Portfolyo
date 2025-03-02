@@ -1,0 +1,282 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    line-height: 1.6;
+    background-color: #0A192F;
+    color: #E5E5E5;
+    font-size: 16px;
+}
+
+header {
+    color: #f7f4e7;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #64FFDA;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #8892B0;
+}
+
+header h3 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.container {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#imghead {
+    margin-left: 45px;
+    font-size: 2rem;
+    word-spacing: 7px;
+}
+
+.box {
+    padding-top: 20px;
+    margin-right: 15px;
+    width: 33.33%;
+    text-align: center;
+}
+
+.box:last-child {
+    margin-right: 0;
+}
+
+.box a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+}
+
+.about-section {
+    padding: 60px 20px;
+    background: #112240;
+    border-bottom: 1px solid #233554;
+}
+
+.about-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #64FFDA;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 1rem;
+    color: #E6F1FF;
+}
+
+.projects-container {
+    text-align: center;
+    background-color: #112240;
+    padding: 60px 20px;
+}
+
+#projeid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#buton {
+    margin: 20px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.project-title {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.projects-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.project-card {
+    background: linear-gradient(135deg, #1a3456, #23395d);
+    color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    
+}
+
+.project-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+
+.project-card time {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #b0bec5;
+}
+
+#contact {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.row {
+    margin-bottom: 40px;
+}
+
+.icon-box:hover {
+    box-shadow: 7px 7px 9px rgb(2, 1, 1);
+    transition: 0.5s;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.col-3 {
+    display: inline-block;
+    width: 30%;
+    padding: 16px;
+    margin: 8px;
+    background-color: #233554;
+    border-radius: 19px;
+}
+
+.icon-box h3 {
+    color: #ffffff;
+    font-size: 26px;
+}
+aside {
+    text-align: center;
+    width: 30%;
+    background: #233554;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+ text-decoration: none;
+}
+aside {
+    width: auto;
+    background: #233554;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 3px solid #64FFDA;
+}
+
+aside h2 {
+    color: #64FFDA;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+    background-color: #0A192F;
+    max-width: 100%;
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #E5E5E5;
+    font-size: 1.2rem;
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+aside ul li a:hover {
+    background: #64FFDA;
+    color: #0A192F;
+    font-weight: bold;
+    border-radius: 25px;
+
+}
+
+
+.icon-box i {
+    color: #64FFDA;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+#clear-box {
+    text-decoration: none;
+    color: #145a9b;
+}
+
+footer {
+    background: #112240;
+    text-align: center;
+    padding: 20px;
+    color: #64FFDA;
+    font-size: 1rem;
+}
