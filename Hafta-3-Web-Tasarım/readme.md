@@ -14,9 +14,13 @@ Sayfa İçeriği
 
 1. Header (Üst Kısım)
 Adım ve mesleğim yer alıyor.
+
 Navigasyon menüsü sayesinde kullanıcılar kolayca aşağıdaki bölümlere ulaşabilir:
+
 Hakkımda: Kendimi tanıttığım bölüme yönlendirir.
+
 Projeler: Yaptığım projeleri listeleyen bölüme yönlendirir.
+
 İletişim: Bana ulaşmak için kullanılabilecek bağlantıları içerir.
 
 Aside:Yan projelerimin bulunduğu bölüm.
