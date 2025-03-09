@@ -280,3 +280,36 @@ footer {
     color: #64FFDA;
     font-size: 1rem;
 }
+#div-image{
+    width: 100%;
+}
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+.light-mode header,
+.light-mode .projects-container,
+.light-mode footer,
+.light-mode aside,
+.light-mode .col-3 {
+    background-color: #f0f0f0;
+    color: #4e2d2d;
+}
+
+
+.light-mode .box a,
+.light-mode .project-title,
+.light-mode .icon-box h3,
+.light-mode-text {
+    color: #333 !important;
+}
+
+.light-mode aside ul li a {
+    color: #333;
+}
+
+.light-mode aside ul li a:hover {
+    background: #000;
+    color: #fff;
+}
+    
