@@ -8,7 +8,7 @@ JavaScript: Sayfaya dinamik özellikler kazandırmak için kullanıldı (script.
 Google Fonts: Lato, Montserrat, Roboto Slab ve Work Sans fontları tercih edildi.
 Font Awesome: Sayfadaki ikonlar için kullanıldı.
 
-
+--------------------------------------------
 
 Sayfa İçeriği
 
@@ -18,36 +18,37 @@ Navigasyon menüsü sayesinde kullanıcılar kolayca aşağıdaki bölümlere ul
 Hakkımda: Kendimi tanıttığım bölüme yönlendirir.
 Projeler: Yaptığım projeleri listeleyen bölüme yönlendirir.
 İletişim: Bana ulaşmak için kullanılabilecek bağlantıları içerir.
+
 Aside:Yan projelerimin bulunduğu bölüm.
 
-
-3. Hakkımda Bölümü
+-------------------------------------------------
+2. Hakkımda Bölümü
 Kendi hakkımda kısa bir tanıtım yazısı bulunuyor.
 Profil fotoğrafım ve açıklamalar yer alıyor.
 
+---------------------------------------------------
 
-
-4. Projeler Bölümü
+3. Projeler Bölümü
 Geliştirdiğim projeleri detaylarıyla birlikte paylaştığım alan.
 Proje açıklamaları ve tarih bilgileri ekli.
 Kullanıcı deneyimini artırmak için bir "Aç/Kapa" düğmesi (id="buton") bulunuyor.
 
+-----------------------------------------------------
 
-
-5. İletişim Bölümü
+4. İletişim Bölümü
 Benimle iletişime geçmek isteyenler için e-posta, WhatsApp ve Instagram bağlantıları mevcut.
 
-
-6. Aside (Yan Panel - Diğer Projelerim)
+-------------------------------------------------------
+5. Aside (Yan Panel - Diğer Projelerim)
 Ana projeler dışında üzerinde çalıştığım veya tamamladığım diğer projeleri listeleyen bir bölüm.
 Kullanıcılar burada farklı projelerime göz atabilir ve detaylı bilgi alabilir.
 Yeni projeler ekledikçe bu bölümü güncelleyerek genişletebilir ve değiştirebilirim.
 
-
-7. Footer (Alt Kısım)
+----------------------------------------------------
+6. Footer (Alt Kısım)
 Telif hakkı bilgilerini içerir.
 Tüm hakları saklıdır.
-
+--------------------------------------------
 Kurulum ve Kullanım
 Projeyi bilgisayarınıza indirin.
 index.html dosyasını herhangi bir tarayıcıda açarak çalıştırabilirsiniz.
